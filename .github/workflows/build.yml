@@ -32,7 +32,6 @@ jobs:
         with:
           java-version: 21
           distribution: 'zulu'
-          cache: gradle
       - name: Run JAR
         run: java -jar build/libs/Bus-Destination-Display-Processor-*-all.jar "${{ secrets.BASE_URL }}" "displays"
       - name: Commit changes
