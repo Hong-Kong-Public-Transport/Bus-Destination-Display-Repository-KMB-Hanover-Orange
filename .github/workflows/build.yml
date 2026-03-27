@@ -39,5 +39,4 @@ jobs:
         with:
           message: Update displays
           files: displays/*.png
-          no-throttle: true
           max-retries: 5
